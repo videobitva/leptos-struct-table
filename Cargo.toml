@@ -26,6 +26,7 @@ wasm-bindgen = "0.2"
 [features]
 chrono = ["dep:chrono", "dep:paste"]
 uuid = ["dep:uuid"]
+ssr = ["leptos-use/ssr"]
 
 [package.metadata."docs.rs"]
 all-features = true
